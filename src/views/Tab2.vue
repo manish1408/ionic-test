@@ -1,9 +1,13 @@
 <template>
   <ion-page>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Chats</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
     <ion-content fullscreen>
       <ion-list>
-        <ion-list-header> Chats </ion-list-header>
-
         <ion-item>
           <ion-avatar class="avt" slot="start">
             <img src="https://i.pravatar.cc/300" />
@@ -44,15 +48,22 @@ import {
   IonList,
   IonLabel,
   IonItem,
-  IonListHeader,
   IonAvatar,
   IonPage,
   IonContent,
-  IonBadge
+  IonBadge,
 } from "@ionic/vue";
 
 export default {
   name: "Tab2",
-  components: { IonList, IonLabel, IonItem, IonListHeader, IonAvatar, IonContent, IonPage, IonBadge},
+  components: {
+    IonList,
+    IonLabel,
+    IonItem,
+    IonAvatar,
+    IonContent,
+    IonPage,
+    IonBadge,
+  },
 };
 </script>
