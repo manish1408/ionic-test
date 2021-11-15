@@ -16,3 +16,19 @@ html, body {
 .avt {
     --border-radius: 6px;
 }
+.profile-picture {
+    width: 150px;
+    border-radius: 6px !important;
+    --border-radius: 6px;
+    margin-top: 17vh;
+}
+.h-100{
+    height: 100vh;
+}
+.text-center {
+    text-align: center;
+}
+.secondary-clr {
+    color: #ccc;
+    --color: #ccc;
+}
