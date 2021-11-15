@@ -5,7 +5,7 @@
         <ion-list-header> Chats </ion-list-header>
 
         <ion-item>
-          <ion-avatar slot="start">
+          <ion-avatar class="avt" slot="start">
             <img src="https://i.pravatar.cc/300" />
           </ion-avatar>
           <ion-label>
@@ -16,21 +16,21 @@
         </ion-item>
 
         <ion-item>
-          <ion-avatar slot="start">
+          <ion-avatar class="avt" slot="start">
             <img src="https://i.pravatar.cc/300" />
           </ion-avatar>
           <ion-label>
-            <h2>Finn</h2>
+            <h2>Moscow</h2>
             <h3>I'm a big deal</h3>
           </ion-label>
         </ion-item>
 
         <ion-item>
-          <ion-avatar slot="start">
+          <ion-avatar class="avt" slot="start">
             <img src="https://i.pravatar.cc/300" />
           </ion-avatar>
           <ion-label>
-            <h2>Finn</h2>
+            <h2>Kiev</h2>
             <h3>I'm a big deal</h3>
           </ion-label>
         </ion-item>

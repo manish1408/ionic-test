@@ -1,28 +1,41 @@
 <template>
   <ion-page>
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>Tab 3</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Tab 3</ion-title>
-        </ion-toolbar>
-      </ion-header>
-      
-      <ExploreContainer name="Tab 3 page" />
+    <ion-content fullscreen>
+      <ion-list>
+        <ion-list-header> My profile </ion-list-header>
+
+        <ion-grid>
+          <ion-row>
+            <ion-col> </ion-col>
+
+            <ion-col>
+              <ion-avatar class="avt" slot="start">
+                <img src="https://i.pravatar.cc/300" />
+              </ion-avatar>
+            </ion-col>
+
+            <ion-col> </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-list>
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+import {
+  IonList,
+  IonListHeader,
+  IonAvatar,
+  IonPage,
+  IonContent,
+  IonGrid,
+  IonRow,
+  IonCol
+} from "@ionic/vue";
 
-export default  {
-  name: 'Tab3',
-  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
-}
+export default {
+  name: "Tab3",
+  components: { IonList, IonListHeader, IonAvatar, IonContent, IonPage, IonGrid, IonRow, IonCol },
+};
 </script>
