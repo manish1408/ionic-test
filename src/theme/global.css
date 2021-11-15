@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+}
+.slide {
+    padding: 40% 5%;
+    font-family: 'Roboto', sans-serif !important;
+}
+.slider-message  {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 26px;
+}
